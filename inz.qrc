@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="inz">
+    <file>hiclipart.com-id_qyklu.png</file>
+    <file>folder.jpg</file>
+    <file>hiclipart.com-id_qtspd.png</file>
+    <file>hiclipart.com-id_qtspp.png</file>
+    <file>right.png</file>
+  </qresource>
+  <qresource/>
+</RCC>
