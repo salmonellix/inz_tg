@@ -50,7 +50,7 @@ color: rgb(255, 255, 255);
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>280</y>
+     <y>320</y>
      <width>291</width>
      <height>21</height>
     </rect>
@@ -63,7 +63,7 @@ color: rgb(255, 255, 255);
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>440</y>
+     <y>410</y>
      <width>281</width>
      <height>20</height>
     </rect>
@@ -75,8 +75,8 @@ color: rgb(255, 255, 255);
   <widget class="QLabel" name="step3">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>470</y>
+     <x>90</x>
+     <y>440</y>
      <width>211</width>
      <height>16</height>
     </rect>
@@ -93,7 +93,7 @@ font: 75 11pt &quot;MS Shell Dlg 2&quot;;</string>
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>130</y>
+     <y>120</y>
      <width>51</width>
      <height>51</height>
     </rect>
@@ -115,8 +115,8 @@ color: rgb(255, 255, 255)</string>
   <widget class="QLabel" name="step2">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>300</y>
+     <x>90</x>
+     <y>340</y>
      <width>221</width>
      <height>18</height>
     </rect>
@@ -132,7 +132,7 @@ font: 75 11pt &quot;MS Shell Dlg 2&quot;;</string>
   <widget class="QLabel" name="step6">
    <property name="geometry">
     <rect>
-     <x>410</x>
+     <x>400</x>
      <y>470</y>
      <width>221</width>
      <height>18</height>
@@ -159,69 +159,12 @@ font: 75 11pt &quot;MS Shell Dlg 2&quot;;</string>
     <enum>Qt::Horizontal</enum>
    </property>
   </widget>
-  <widget class="QWidget" name="horizontalLayoutWidget_2">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>340</y>
-     <width>281</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <layout class="QHBoxLayout" name="box_step3_2">
-    <item>
-     <widget class="QLabel" name="label_fname1">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
-font: 7pt &quot;MS Shell Dlg 2&quot;;
-</string>
-      </property>
-      <property name="text">
-       <string>FILE NAME</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLineEdit" name="input_fname1">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(208, 208, 208);</string>
-      </property>
-      <property name="text">
-       <string notr="true"/>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="save_file1">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(13, 101, 195);
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>SAVE FILE</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
   <widget class="QWidget" name="horizontalLayoutWidget_3">
    <property name="geometry">
     <rect>
-     <x>360</x>
-     <y>140</y>
-     <width>281</width>
+     <x>370</x>
+     <y>200</y>
+     <width>261</width>
      <height>31</height>
     </rect>
    </property>
@@ -283,9 +226,9 @@ color: rgb(255, 255, 255);</string>
   <widget class="QWidget" name="horizontalLayoutWidget_4">
    <property name="geometry">
     <rect>
-     <x>360</x>
+     <x>370</x>
      <y>500</y>
-     <width>281</width>
+     <width>261</width>
      <height>31</height>
     </rect>
    </property>
@@ -344,67 +287,10 @@ color: rgb(255, 255, 255);</string>
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="horizontalLayoutWidget_5">
-   <property name="geometry">
-    <rect>
-     <x>360</x>
-     <y>530</y>
-     <width>281</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <layout class="QHBoxLayout" name="box_step6_2">
-    <item>
-     <widget class="QLabel" name="label_fname3">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
-font: 7pt &quot;MS Shell Dlg 2&quot;;
-</string>
-      </property>
-      <property name="text">
-       <string>FILE NAME</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLineEdit" name="input_fname3">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(208, 208, 208);</string>
-      </property>
-      <property name="text">
-       <string notr="true"/>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="save_file3">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(13, 101, 195);
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>SAVE FILE</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
   <widget class="QPushButton" name="button_close">
    <property name="geometry">
     <rect>
-     <x>420</x>
+     <x>430</x>
      <y>620</y>
      <width>121</width>
      <height>31</height>
@@ -421,10 +307,10 @@ color: rgb(255, 255, 255);</string>
   <widget class="QPushButton" name="add_hs">
    <property name="geometry">
     <rect>
-     <x>580</x>
-     <y>330</y>
-     <width>51</width>
-     <height>41</height>
+     <x>480</x>
+     <y>390</y>
+     <width>71</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -518,7 +404,7 @@ font: 75 11pt &quot;MS Shell Dlg 2&quot;;</string>
    <property name="geometry">
     <rect>
      <x>370</x>
-     <y>280</y>
+     <y>320</y>
      <width>281</width>
      <height>21</height>
     </rect>
@@ -530,8 +416,8 @@ font: 75 11pt &quot;MS Shell Dlg 2&quot;;</string>
   <widget class="QLabel" name="step5">
    <property name="geometry">
     <rect>
-     <x>410</x>
-     <y>300</y>
+     <x>400</x>
+     <y>360</y>
      <width>221</width>
      <height>18</height>
     </rect>
@@ -548,7 +434,7 @@ font: 75 11pt &quot;MS Shell Dlg 2&quot;;</string>
    <property name="geometry">
     <rect>
      <x>70</x>
-     <y>130</y>
+     <y>120</y>
      <width>101</width>
      <height>111</height>
     </rect>
@@ -562,7 +448,7 @@ selection-color: rgb(118, 197, 230);</string>
    <property name="geometry">
     <rect>
      <x>70</x>
-     <y>250</y>
+     <y>300</y>
      <width>241</width>
      <height>23</height>
     </rect>
@@ -579,7 +465,7 @@ color: rgb(255, 255, 255);</string>
    <property name="geometry">
     <rect>
      <x>210</x>
-     <y>130</y>
+     <y>120</y>
      <width>101</width>
      <height>111</height>
     </rect>
@@ -593,7 +479,7 @@ selection-color: rgb(118, 197, 230);</string>
    <property name="geometry">
     <rect>
      <x>70</x>
-     <y>110</y>
+     <y>100</y>
      <width>101</width>
      <height>20</height>
     </rect>
@@ -610,7 +496,7 @@ font: 75 8pt &quot;MS Shell Dlg 2&quot;;</string>
    <property name="geometry">
     <rect>
      <x>210</x>
-     <y>110</y>
+     <y>100</y>
      <width>101</width>
      <height>20</height>
     </rect>
@@ -627,7 +513,7 @@ font: 75 8pt &quot;MS Shell Dlg 2&quot;;</string>
    <property name="geometry">
     <rect>
      <x>180</x>
-     <y>170</y>
+     <y>160</y>
      <width>21</width>
      <height>21</height>
     </rect>
@@ -644,7 +530,7 @@ color: rgb(255, 255, 255);</string>
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>190</y>
+     <y>180</y>
      <width>51</width>
      <height>51</height>
     </rect>
@@ -666,9 +552,9 @@ color: rgb(255, 255, 255)</string>
   <widget class="QPushButton" name="color_button">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>510</y>
-     <width>141</width>
+     <x>120</x>
+     <y>550</y>
+     <width>121</width>
      <height>31</height>
     </rect>
    </property>
@@ -697,70 +583,13 @@ color: rgb(255, 255, 255);</string>
     <string>CLEAR</string>
    </property>
   </widget>
-  <widget class="QWidget" name="horizontalLayoutWidget_6">
-   <property name="geometry">
-    <rect>
-     <x>360</x>
-     <y>170</y>
-     <width>281</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <layout class="QHBoxLayout" name="box_step3_3">
-    <item>
-     <widget class="QLabel" name="label_fname2_2">
-      <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
-font: 7pt &quot;MS Shell Dlg 2&quot;;
-</string>
-      </property>
-      <property name="text">
-       <string>FILE NAME</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLineEdit" name="input_fname2_2">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(208, 208, 208);</string>
-      </property>
-      <property name="text">
-       <string notr="true"/>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="save_file2_2">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(13, 101, 195);
-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="text">
-       <string>SAVE FILE</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
   <widget class="QTextBrowser" name="hs_browse">
    <property name="geometry">
     <rect>
-     <x>380</x>
-     <y>330</y>
-     <width>181</width>
-     <height>101</height>
+     <x>370</x>
+     <y>390</y>
+     <width>101</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -771,10 +600,10 @@ selection-color: rgb(118, 197, 230);</string>
   <widget class="QPushButton" name="clear_hs">
    <property name="geometry">
     <rect>
-     <x>580</x>
-     <y>380</y>
-     <width>51</width>
-     <height>41</height>
+     <x>560</x>
+     <y>390</y>
+     <width>71</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -790,6 +619,277 @@ color: rgb(255, 255, 255)</string>
      <height>30</height>
     </size>
    </property>
+  </widget>
+  <widget class="QPushButton" name="save_file1">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>370</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(13, 101, 195);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>SAVE FILE</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="colors">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>470</y>
+     <width>241</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 208, 208);
+color: rgb(255, 255, 255);
+background-color: rgb(44, 44, 44);
+selection-color: rgb(118, 197, 230);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>wheat_brown</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>lightorange_deepolive</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>sand_chocolate</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>blue_red</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>white_black</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>rainbow</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>slate_density</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>dirtyviolet_violetpurple</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>yellow_orange_red</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>smudge_forest</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>darksalmon_raspberry</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>palecyan_deepteal</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>lightpink_lightmagenta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>lightorange_orange</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>lightblue_purpleblue</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>limon_splitpea</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="save_file2_2">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>260</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(13, 101, 195);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>SAVE FILE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="save_file3">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>540</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(13, 101, 195);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>SAVE FILE</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupSolvent">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>240</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-color: rgb(40, 40, 40);</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QRadioButton" name="oneSolvent">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>ONE SOLVENT</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="multipleSolvent">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>121</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>MULTIPLE SOLVENT</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupSimlification">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>120</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QRadioButton" name="geometric">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>GEOMETRIC CENTRE</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="weights">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>20</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>HS WEIGHTS</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources>
