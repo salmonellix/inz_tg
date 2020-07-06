@@ -1,0 +1,11 @@
+@<TRIPOS>MOLECULE
+pocket
+ 20 0 0 0
+SMALL
+GASTEIGER
+
+@<TRIPOS>ATOM
+      3  H         57.5000   51.5000    49.5000 H       1  FIL1        0.0225     
+     14  H         60.5000   53.5000    41.5000 H       1  FIL1        0.0344    
+     17  H         60.5000   54.5000    48.5000 H       1  FIL1        0.0053
+@<TRIPOS>BOND
